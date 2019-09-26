@@ -6,32 +6,34 @@ I would like to base my project on a [dataset of cocktails](https://gist.github.
 
 ## Prototypes
 
+I’ve created a proof of concept visualization of this data. It's a bar graph showing ingredients included in cocktails containing selected ingredients.  For the prototype, the chart can be interactive if the user modifies the ingredient constants in the index.js file. The user can enter up to 5 ingredients to filter on. The user can also modify the nSlices constant in order to modify the number of results returned in the chart. The tooltip will show the cocktail names and the colors indicate the main alcohol contained in the cocktail.
 
-The chart can be interactive if the user modifies the ingredient constants in the index.js file. The user can enter up to 5 ingredients to filter on. The chart will return all of the ingredients included in cocktails containing the selected ingredients.The user can also modify the nSlices constant in order to modify the number of results returned in the chart. The tooltip will show the cocktail names and the colors indicate the main alcohol contained in the cocktail.
+[![image](https://user-images.githubusercontent.com/44886644/65655061-d62a1680-dfe8-11e9-8c74-7822644fbc6e.png)](https://vizhub.com/jgorsett/c5ae89a319ac45d691be5c0f69ff8ca9/fullscreen)
 
-In playing around with the visualization, I discovered the following: 1) Without using any filters, you can see the top ingredients included in all cocktails. Not surprising that lemon and lime juice are at the top, but I was surprised to see marachino liqueur in 3rd place and ginger liquer in 4th place. I didn't realize these liquers were that popular. 2) If you have specific ingredients on hand, you can filter on these to see what other ingredients to pair with these. For example, what goes well with egg whites? Based on this you can't go wrong pairing it with lemon juice, ginger liquer, simple syrup and gin.
-
-I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
-
-![image](https://user-images.githubusercontent.com/44886644/65655061-d62a1680-dfe8-11e9-8c74-7822644fbc6e.png)
-
-
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments)
 
 ## Questions & Tasks
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- *  How do trends compare across the US?
+ *  How do cocktail ingredient trends compare across the US?
  *  What are the most common ingredient combinations?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
+ *  If the user has specific ingredients, what other ingredients can they combine with them to make different cocktails?
+ *  What are the most popular types of cocktails.
 
 ## Sketches
 
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+The sketch below shows a chart similar to the protoype above.  In the actual version, I'd like to have interactive filters for the user to select the ingredients to include and exclude.  There should be some type of color coding to help the user visualize the categories of ingredients.  
+
+![image](https://user-images.githubusercontent.com/44886644/65655486-6583f980-dfea-11e9-886d-f7a58a1c2242.png)
+
+
+The sketch below shows three maps showing the top categories including alcohol types, cocktail ingredients, and words in cocktail names for each location in the dataset.  Having the different maps all in one display will allow the user to see the different trends across the locations.
+
+![image](https://user-images.githubusercontent.com/44886644/65656068-76ce0580-dfec-11e9-808b-09dac51ad11c.png)
+
 
 ## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+1) I don't know how to add data points to existing maps.  I've learned from the lectures on how to create and render a map, but I'm not sure how to combine the map data with my dataset and get it to render in the same visualization. 
+2) I don't know how to do the interactive filtering in D3 and React.
+3) I'm not sure how to display multiple maps all in the same visualization.
