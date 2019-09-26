@@ -13,7 +13,8 @@ In playing around with the visualization, I discovered the following: 1) Without
 
 I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
 
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://beta.vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
+![image](https://user-images.githubusercontent.com/44886644/65655061-d62a1680-dfe8-11e9-8c74-7822644fbc6e.png)
+
 
 (please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments)
 
