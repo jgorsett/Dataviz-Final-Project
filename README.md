@@ -17,7 +17,7 @@ The following tasks and questions will drive the visualization and interaction d
 
  *  How do cocktail ingredient trends compare across the US?
  *  What are the most common ingredient combinations?
- *  If the user has specific ingredients, what other ingredients can they combine with them to make different cocktails?
+ *  If the user would like to use specific ingredients, what other ingredients can they combine with them to make different cocktails?
  *  What are the most popular types of cocktails.
 
 ## Sketches
