@@ -6,9 +6,19 @@ I would like to base my project on a [dataset of cocktails](https://gist.github.
 
 ## Prototypes
 
+### 1)
 I’ve created a proof of concept visualization of this data. It is a bar graph showing ingredients included in cocktails containing selected ingredients.  For the prototype, the chart can be interactive if the user modifies the ingredient constants in the index.js file. The user can enter up to 5 ingredients to filter on. The user can also modify the “nSlices” constant in order to modify the number of results returned in the chart. The tooltip will show the cocktail names and the colors indicate the main alcohol contained in the cocktail.
 
 [![image](https://user-images.githubusercontent.com/44886644/65655061-d62a1680-dfe8-11e9-8c74-7822644fbc6e.png)](https://vizhub.com/jgorsett/c5ae89a319ac45d691be5c0f69ff8ca9/fullscreen)
+
+### 2) 
+This prototype shows the top ingredients in cocktails across the US.  The legend is interactive.  I plan to extend this further to make the map make more sense.  For example right now trends are not very obvious.  San Francisco had the largest sample of cocktails so the circles on the map are very large for most ingredients compared to other locations.
+
+[![image](https://user-images.githubusercontent.com/44886644/66532258-c1677b80-eadc-11e9-9a7a-3bb51b983662.png)](https://beta.vizhub.com/jgorsett/4f713ace93ca4f25895cef013ce00771)
+
+### 3) 
+This basic prototype has the beginnings of what I intend to do to show cocktail compositions across the US.  The data has been prepared so each location can show the ingredient compositions filtered for locations with common ingredients in 3 or more cocktails.  Right now the chart shows circles for the locations.  However, I would like to include radial charts at each location.
+[![image](https://user-images.githubusercontent.com/44886644/66533101-b82bde00-eadf-11e9-9224-2d68cc21a394.png)](https://beta.vizhub.com/jgorsett/e5ac059bc26a4d1b8e0924876843ca10)
 
 
 ## Questions & Tasks
@@ -39,11 +49,16 @@ The sketch below displays three maps showing the top categories including alcoho
 2) In order to view the top trends across locations, the user will be able to select attributes from a dropdown which will allow the attribute to be displayed on the chart.
 3) Tooltips will display the details (e.g. Cocktail Name, location) about the data points.
 
+## Breakthroughs
+
+The week 6 lectures were extremely helpful for me in completing my prototypes, especially the lectures about Points on the Map and Interactive Highlighting.  I was able to apply these to my project quite successfully. (Thank you, Curran!)
+
+
 ## Schedule of Deliverables
 
-* 10/9: Finalize sketches and prototypes and solicit feedback
-* 10/16: Finalize data manipulations and cleanup required to do visualizations
-* 10/23: Finalize interactivity
+* 10/9: Finalize sketches and first drafts of prototypes and solicit feedback
+* 10/16: Finalize prototypes, data manipulations and cleanup required to do visualizations
+* 10/23: Finalize interactivity and continue to refine visualizations
 * 10/30: Polish and perform final edits on the visualization and submit
 
 
