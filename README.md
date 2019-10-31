@@ -12,6 +12,26 @@ The visualizations and interaction decisions in this project were motivated by t
  *  What are the most popular types of cocktails?
  *  What is the composition of cocktails served in different locations?
 
+## Sketches
+The sketch below shows a chart showing ingredient breakdowns with interactive filters and coloring for different types of ingredients.
+
+![image](https://user-images.githubusercontent.com/44886644/65655486-6583f980-dfea-11e9-886d-f7a58a1c2242.png)
+
+The sketch below displays three maps showing the top categories including alcohol types, cocktail ingredients, and words in cocktail names for each location in the dataset.  Having the different maps all in one display will allow the user to see the different trends across the locations.
+
+![image](https://user-images.githubusercontent.com/44886644/65656068-76ce0580-dfec-11e9-808b-09dac51ad11c.png)
+
+## Prototypes
+
+### Ingredient Pairings Bar Chart
+Displays a bar graph showing ingredients included in cocktails containing selected ingredients.  For the prototype, the chart can be interactive if the user modifies the ingredient constants in the index.js file. The user can enter up to 5 ingredients to filter on. The user can also modify the “nSlices” constant in order to modify the number of results returned in the chart. The tooltip will show the cocktail names and the colors indicate the main alcohol contained in the cocktail.
+
+[![image](https://user-images.githubusercontent.com/44886644/65655061-d62a1680-dfe8-11e9-8c74-7822644fbc6e.png)](https://vizhub.com/jgorsett/c5ae89a319ac45d691be5c0f69ff8ca9/fullscreen)
+
+### Cocktail locations on a U.S. Map 
+This basic prototype is a starting point for displaying cocktail compositions across the US.  The data has been prepared so each location can show the ingredient compositions filtered for locations with common ingredients in 3 or more cocktails.  The chart shows circles for the locations. 
+[![image](https://user-images.githubusercontent.com/44886644/66533101-b82bde00-eadf-11e9-9224-2d68cc21a394.png)](https://beta.vizhub.com/jgorsett/e5ac059bc26a4d1b8e0924876843ca10)
+
 ## Visualizations
 
 ### Interactive Cocktail Alcohol Pie Charts on U.S. Map
@@ -25,29 +45,6 @@ Displays a bar chart including the top 20 ingredients found in the cocktails dat
 ### Interactive Bubble Chart for Top Cocktail Ingredients
 Displays a U.S. map with circle marks for the top 10 ingredients in the data set, sized by the count of the cocktail items found at each location.  Hovering over the values in the legend will highlight the selected ingredients on the map.
 [![image](https://user-images.githubusercontent.com/44886644/67910513-619f4600-fb59-11e9-8d69-69dd7293259b.png)](https://beta.vizhub.com/jgorsett/18e06a65bb964e0ebebab124d8bb2148)
-
-## Prototypes
-
-### Ingredient Pairings Bar Chart
-Displays a bar graph showing ingredients included in cocktails containing selected ingredients.  For the prototype, the chart can be interactive if the user modifies the ingredient constants in the index.js file. The user can enter up to 5 ingredients to filter on. The user can also modify the “nSlices” constant in order to modify the number of results returned in the chart. The tooltip will show the cocktail names and the colors indicate the main alcohol contained in the cocktail.
-
-[![image](https://user-images.githubusercontent.com/44886644/65655061-d62a1680-dfe8-11e9-8c74-7822644fbc6e.png)](https://vizhub.com/jgorsett/c5ae89a319ac45d691be5c0f69ff8ca9/fullscreen)
-
-### Cocktail locations on a U.S. Map 
-This basic prototype is a starting point for displaying cocktail compositions across the US.  The data has been prepared so each location can show the ingredient compositions filtered for locations with common ingredients in 3 or more cocktails.  The chart shows circles for the locations. 
-[![image](https://user-images.githubusercontent.com/44886644/66533101-b82bde00-eadf-11e9-9224-2d68cc21a394.png)](https://beta.vizhub.com/jgorsett/e5ac059bc26a4d1b8e0924876843ca10)
-
-
-## Sketches
-The sketch below shows a chart showing ingredient breakdowns with interactive filters and coloring for different types of ingredients.
-
-![image](https://user-images.githubusercontent.com/44886644/65655486-6583f980-dfea-11e9-886d-f7a58a1c2242.png)
-
-
-The sketch below displays three maps showing the top categories including alcohol types, cocktail ingredients, and words in cocktail names for each location in the dataset.  Having the different maps all in one display will allow the user to see the different trends across the locations.
-
-![image](https://user-images.githubusercontent.com/44886644/65656068-76ce0580-dfec-11e9-808b-09dac51ad11c.png)
-
 
 ## Future Work
  * Add ingredient composition bar chart to the pie chart by region chart displayed across the bottom of the axis.  In addition to the current behavior, hovering over an alcohol type would filter the bar chart and return the ingredients and counts for cocktails in the filtered set.
