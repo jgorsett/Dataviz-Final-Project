@@ -34,10 +34,6 @@ This basic prototype is a starting point for displaying cocktail compositions ac
 
 ## Visualizations
 
-### Interactive Cocktail Alcohol Pie Charts on U.S. Map
-Displays pie charts containing the top 10 alcohols found in cocktails across locations on a U.S. map.  Hovering over the values in the legend will highlight the alcohol and counts within each pie chart.
-[![image](https://user-images.githubusercontent.com/44886644/67909715-96f66480-fb56-11e9-86b1-e777bf3ba5b8.png)](https://beta.vizhub.com/jgorsett/7f4eab84f0d747159880fee9b3334633)
-
 ### Filterable Cocktail Ingredient Bar Chart
 Displays a bar chart including the top 20 ingredients found in the cocktails data set.  Selecting an alcohol in the dropdown will filter the cocktails data and return ingredients found in cocktails containing the selected alcohol.
 [![image](https://user-images.githubusercontent.com/44886644/67910418-fd7c8200-fb58-11e9-8abc-dcfab49d4870.png)](https://beta.vizhub.com/jgorsett/74fec17030cb49298c397eeac028a908?edit=files)
@@ -45,6 +41,10 @@ Displays a bar chart including the top 20 ingredients found in the cocktails dat
 ### Interactive Bubble Chart for Top Cocktail Ingredients
 Displays a U.S. map with circle marks for the top 10 ingredients in the data set, sized by the count of the cocktail items found at each location.  Hovering over the values in the legend will highlight the selected ingredients on the map.
 [![image](https://user-images.githubusercontent.com/44886644/67910513-619f4600-fb59-11e9-8d69-69dd7293259b.png)](https://beta.vizhub.com/jgorsett/18e06a65bb964e0ebebab124d8bb2148)
+
+### Interactive Cocktail Alcohol Pie Charts on U.S. Map
+Displays pie charts containing the top 10 alcohols found in cocktails across locations on a U.S. map.  Hovering over the values in the legend will highlight the alcohol and counts within each pie chart.
+[![image](https://user-images.githubusercontent.com/44886644/67909715-96f66480-fb56-11e9-86b1-e777bf3ba5b8.png)](https://beta.vizhub.com/jgorsett/7f4eab84f0d747159880fee9b3334633)
 
 ## Future Work
  * Add ingredient composition bar chart to the pie chart by region chart displayed across the bottom of the axis.  In addition to the current behavior, hovering over an alcohol type would filter the bar chart and return the ingredients and counts for cocktails in the filtered set.
