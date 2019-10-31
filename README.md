@@ -4,13 +4,15 @@
 
 This project is based on the [dataset of cocktails](https://gist.github.com/jgorsett/6492ab1253c04167d1639c4ced71b3bf) collected by alcohol importer and distiller Hotaling & Co. The original dataset was modified to parse out/clean up the ingredients into rows, categorize the alcohol types and add location longitude and latitude coordinates.
 
-## Visualizations
+## Motivations
 The visualizations and interaction decisions in this project were motivated by the following tasks and questions:
  *  How do cocktail ingredient trends compare across the US?
  *  What are the most common ingredient combinations?
  *  If the user would like to use specific ingredients, what other ingredients can they combine with them to make different cocktails?
  *  What are the most popular types of cocktails?
  *  What is the composition of cocktails served in different locations?
+
+## Visualizations
 
 ### Interactive Cocktail Alcohol Pie Charts on U.S. Map
 Displays pie charts containing the top 10 alcohols found in cocktails across locations on a U.S. map.  Hovering over the values in the legend will highlight the alcohol and counts within each pie chart.
